@@ -39,6 +39,14 @@
     color: #fff;
 }
 
+.pokemonRoca{
+    padding: 2px 5px;
+    border-radius: 10px;
+    background-color: #a3be63;
+    color: #fff;
+
+}
+
 .pokemonVolador{
     padding: 2px 3px;
     border-radius: 10px;
@@ -92,6 +100,20 @@
 .evolucionPokemon{
     display: flex;
     justify-content: space-around;
+}
+
+.containerCartas{
+    margin-top: 2em;
+   
+}
+.subTit{
+    margin-top: 1em;
+}
+#bgPokemon{
+    background-image: url(../img/container_bg.png);
+}
+.bgBlanco{
+    background: #fff;
 }
 
 @media all and (max-width: 767px){
