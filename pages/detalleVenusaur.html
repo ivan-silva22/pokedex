@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="../css/styles.css" />
     <title>Pokedex</title>
   </head>
-  <body>
+  <body id="bgPokemon">
     <header>
       <nav class="navbar navbar-expand-lg bg-nav" data-bs-theme="dark">
         <article class="container">
@@ -127,22 +127,21 @@
           <span class="visually-hidden">Next</span>
         </button>
       </section>
-      <section class="container border mt-3 rounded-3 p-2">
+      <section class="container border mt-3 rounded-3 p-2 bgBlanco">
         <h2 class="text-center">
-          Balbasaur <span class="text-secondary">N.°001</span>
+          Venusaur <span class="text-secondary">N.°003</span>
         </h2>
         <article class="descripcion">
           <div>
             <img
               class="img-fluid"
-              src="../img/detalles/bulbasaur.png"
-              alt="Pokémon bulbasaur"
+              src="../img/detalleVenasur/venasur-uno.png"
+              alt="Pokémon Venasaur"
             />
           </div>
           <div class="mt-4">
             <p>
-              Este Pokémon nace con una semilla en el lomo, que brota con el
-              paso del tiempo.
+                La planta florece cuando absorbe energía solar, lo cual le obliga a buscar siempre la luz del sol.
             </p>
             <div class="bg-primary text-white p-2 rounded-3">
               <h5 class="ms-2">Version</h5>
@@ -153,13 +152,13 @@
                     <li>
                       <span>Altura</span>
                       <br />
-                      <span>0,7</span>
+                      <span>2,0 m</span>
                     </li>
                     <br />
                     <li>
                       <span>Peso</span>
                       <br />
-                      <span>6,9Kg</span>
+                      <span>100,0 Kg</span>
                     </li>
                     <br />
                     <li>
@@ -187,8 +186,8 @@
             </div>
             <div class="mt-3">
               <h5>Tipo</h5>
-              <span class="bgVerde">Planta</span>
-              <span class="bgMorado">Veneno</span>
+              <span class="pokemonPlanta">Planta</span>
+              <span class="pokemonVeneno">Veneno</span>
             </div>
             <div class="mt-3">
               <h5>Debilidad</h5>
@@ -199,80 +198,97 @@
             </div>
           </div>
         </article>
-        <article class="evoluciones mt-3">
+        <br>
+        <article class="evoluciones">
           <h4>Evoluciones</h4>
           <article class="evolucionPokemon">
             <div>
-              <img src="../img/pokemon/bulbasaur.png" alt="Pokémon bulbasaur" />
-              <h3>Balbasaur <span class="text-secondary">N. °001</span></h3>
-              <span class="bgVerde">Planta</span>
-              <span class="bgMorado">Veneno</span>
+              <img
+                src="../img/detalleVenasur/venasur-dos.png"
+                alt="Evolución de Balbasaur"
+              />
+              <h3>Bulbasaur<span class="text-secondary">N. °0001</span></h3>
+              <span class="pokemonPlanta">Planta</span>
             </div>
             <div>
-              <img src="../img/pokemon/ivysaur.png" alt="Pokémon ivysaur" />
-              <h3>Ivysaur <span class="text-secondary">N. °002</span></h3>
-              <span class="bgVerde">Planta</span>
-              <span class="bgMorado">Veneno</span>
+              <img
+                src="../img/detalleVenasur/venasur-tres.png"
+                alt="Evolución de Ivysaur"
+              />
+              <h3>Ivysaur <span class="text-secondary">N. °0002</span></h3>
+              <span class="pokemonPlanta">Planta</span>
             </div>
             <div>
-              <img src="../img/pokemon/venusaur.png" alt="Pokémon venusaur" />
-              <h3>Venusaur <span class="text-secondary">N. °003</span></h3>
-              <span class="bgVerde">Planta</span>
-              <span class="bgMorado">Veneno</span>
+              <img
+                src="../img/detalleVenasur/venasur-cuatro.png"
+                alt="Evolución de Venasaur"
+              />
+              <h3>Venusaur <span class="text-secondary">N. °0003</span></h3>
+              <span class="pokemonPlanta">Planta</span>
             </div>
           </article>
         </article>
         <!-- card cartas -->
-        <h3 class="subTit">Cartas Charmeleon</h3>
+        <h3 class="subTit">Cartas Venasaur</h3>
         <div class="row row-cols-1 row-cols-md-3 g-4 containerCartas">
           <div class="col">
             <div class="card h-100">
               <img
-                src="../img/detalleBalbasaur/balbasaurCarta1.png"
+                src="../img/detalleVenasur/carta1.png"
                 class="card-img-top"
-                alt="carta de Balbasaur"
+                alt="carta de venusaur"
               />
             </div>
           </div>
           <div class="col">
             <div class="card h-100">
               <img
-                src="../img/detalleBalbasaur/balbasaurCarta2.png"
+                src="../img/detalleVenasur/carta2.png"
                 class="card-img-top"
-                alt="carta de Balbasaur"
+                alt="carta de venusaur"
               />
             </div>
           </div>
           <div class="col">
             <div class="card h-100">
               <img
-                src="../img/detalleBalbasaur/balbasaurCarta3.png"
+                src="../img/detalleVenasur/carta3.png"
                 class="card-img-top"
-                alt="carta de Balbasaur"
+                alt="carta de venusaur"
               />
             </div>
           </div>
           <div class="col">
             <div class="card h-100">
               <img
-                src="../img/detalleBalbasaur/balbasaurCarta4.png"
+                src="../img/detalleVenasur/carta4.png"
                 class="card-img-top"
-                alt="carta de Balbasaur"
+                alt="carta de venusaur"
               />
             </div>
           </div>
           <div class="col">
             <div class="card h-100">
               <img
-                src="../img/detalleBalbasaur/balbasaurCarta5.png"
+                src="../img/detalleVenasur/carta5.png"
                 class="card-img-top"
-                alt="carta de Balbasaur"
+                alt="carta de venusaur"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="../img/detalleVenasur/carta7.png"
+                class="card-img-top"
+                alt="carta de venusaur"
               />
             </div>
           </div>
         </div>
       </section>
     </main>
+    <br>
     <footer class="bg-dark p-3 text-center text-white mt-5">
       <p>© Todos los derechos reservados</p>
     </footer>

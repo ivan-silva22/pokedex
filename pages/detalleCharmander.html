@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="../css/styles.css" />
     <title>Pokedex</title>
   </head>
-  <body>
+  <body id="bgPokemon">
     <header>
       <nav class="navbar navbar-expand-lg bg-nav" data-bs-theme="dark">
         <article class="container">
@@ -127,22 +127,22 @@
           <span class="visually-hidden">Next</span>
         </button>
       </section>
-      <section class="container border mt-3 rounded-3 p-2">
+      <section class="container border mt-3 rounded-3 p-2 bgBlanco">
         <h2 class="text-center">
-          Balbasaur <span class="text-secondary">N.°001</span>
+          Charmander <span class="text-secondary">N.°004</span>
         </h2>
         <article class="descripcion">
           <div>
             <img
               class="img-fluid"
-              src="../img/detalles/bulbasaur.png"
-              alt="Pokémon bulbasaur"
+              src="../img/detalleCharmander/charmander1.png"
+              alt="Pokémon charizard"
             />
           </div>
           <div class="mt-4">
             <p>
-              Este Pokémon nace con una semilla en el lomo, que brota con el
-              paso del tiempo.
+              Prefiere las cosas calientes. Dicen que cuando llueve le sale
+              vapor de la punta de la cola.
             </p>
             <div class="bg-primary text-white p-2 rounded-3">
               <h5 class="ms-2">Version</h5>
@@ -153,13 +153,13 @@
                     <li>
                       <span>Altura</span>
                       <br />
-                      <span>0,7</span>
+                      <span>0,6</span>
                     </li>
                     <br />
                     <li>
                       <span>Peso</span>
                       <br />
-                      <span>6,9Kg</span>
+                      <span>8,5 Kg</span>
                     </li>
                     <br />
                     <li>
@@ -173,13 +173,13 @@
                     <li>
                       <span>Categoria</span>
                       <br />
-                      <span>Semilla</span>
+                      <span>Lagartija</span>
                     </li>
                     <br />
                     <li>
                       <span>Habilidad</span>
                       <br />
-                      <span>Espesura</span>
+                      <span>Mar llamas</span>
                     </li>
                   </ul>
                 </div>
@@ -187,86 +187,100 @@
             </div>
             <div class="mt-3">
               <h5>Tipo</h5>
-              <span class="bgVerde">Planta</span>
-              <span class="bgMorado">Veneno</span>
+              <span class="pokemonFuego">Fuego</span>
             </div>
             <div class="mt-3">
               <h5>Debilidad</h5>
-              <span class="pokemonFuego">Fuego</span>
-              <span class="pokemonVolador">Volador</span>
-              <span class="pokemonPsiquico">Psíquico</span>
-              <span class="pokemonHielo">Hielo</span>
+              <span class="pokemonAgua">Agua</span>
+              <span class="pokemonVolador">Tierra</span>
+              <span class="pokemonRoca">Roca</span>
             </div>
           </div>
         </article>
-        <article class="evoluciones mt-3">
+        <article class="evoluciones">
           <h4>Evoluciones</h4>
           <article class="evolucionPokemon">
             <div>
-              <img src="../img/pokemon/bulbasaur.png" alt="Pokémon bulbasaur" />
-              <h3>Balbasaur <span class="text-secondary">N. °001</span></h3>
-              <span class="bgVerde">Planta</span>
-              <span class="bgMorado">Veneno</span>
+              <img
+                src="../img/pokemon/charmander.png"
+                alt="Evolución de charizard"
+              />
+              <h3>Charmander <span class="text-secondary">N. °004</span></h3>
+              <span class="pokemonFuego">Fuego</span>
             </div>
             <div>
-              <img src="../img/pokemon/ivysaur.png" alt="Pokémon ivysaur" />
-              <h3>Ivysaur <span class="text-secondary">N. °002</span></h3>
-              <span class="bgVerde">Planta</span>
-              <span class="bgMorado">Veneno</span>
+              <img
+                src="../img/detalleCharmander/charmander2.png"
+                alt="Evolución de charizard"
+              />
+              <h3>Charmeleon <span class="text-secondary">N. °005</span></h3>
+              <span class="pokemonFuego">Fuego</span>
             </div>
             <div>
-              <img src="../img/pokemon/venusaur.png" alt="Pokémon venusaur" />
-              <h3>Venusaur <span class="text-secondary">N. °003</span></h3>
-              <span class="bgVerde">Planta</span>
-              <span class="bgMorado">Veneno</span>
+              <img
+                src="../img/detalleCharmander/charmander3.png"
+                alt="Evolución de charizard"
+              />
+              <h3>Charizard <span class="text-secondary">N. °003</span></h3>
+              <span class="pokemonFuego">Fuego</span>
+              <span class="pokemonVolador">Volador</span>
             </div>
           </article>
         </article>
         <!-- card cartas -->
-        <h3 class="subTit">Cartas Charmeleon</h3>
+        <h3 class="subTit">Cartas Charmander</h3>
         <div class="row row-cols-1 row-cols-md-3 g-4 containerCartas">
           <div class="col">
             <div class="card h-100">
               <img
-                src="../img/detalleBalbasaur/balbasaurCarta1.png"
+                src="../img/detalleCharmander/cartaCharmander1.png"
                 class="card-img-top"
-                alt="carta de Balbasaur"
+                alt="carta de charizard"
               />
             </div>
           </div>
           <div class="col">
             <div class="card h-100">
               <img
-                src="../img/detalleBalbasaur/balbasaurCarta2.png"
+                src="../img/detalleCharmander/cartaCharmander2.png"
                 class="card-img-top"
-                alt="carta de Balbasaur"
+                alt="carta de charizard"
               />
             </div>
           </div>
           <div class="col">
             <div class="card h-100">
               <img
-                src="../img/detalleBalbasaur/balbasaurCarta3.png"
+                src="../img/detalleCharmander/cartaCharmander3.png"
                 class="card-img-top"
-                alt="carta de Balbasaur"
+                alt="carta de charizard"
               />
             </div>
           </div>
           <div class="col">
             <div class="card h-100">
               <img
-                src="../img/detalleBalbasaur/balbasaurCarta4.png"
+                src="../img/detalleCharmander/cartaCharmander4.png"
                 class="card-img-top"
-                alt="carta de Balbasaur"
+                alt="carta de charizard"
               />
             </div>
           </div>
           <div class="col">
             <div class="card h-100">
               <img
-                src="../img/detalleBalbasaur/balbasaurCarta5.png"
+                src="../img/detalleCharmander/cartaCharmander5.png"
                 class="card-img-top"
-                alt="carta de Balbasaur"
+                alt="carta de charizard"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="../img/detalleCharmander/cartaCharmander6.png"
+                class="card-img-top"
+                alt="carta de charizard"
               />
             </div>
           </div>
